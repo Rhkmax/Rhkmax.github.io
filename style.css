@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Handjet', cursive;
+}
+body {
+	background: #081b29;
+	color: #ffffff;
+}
+.logo {
+	font-family: 'Fantasy';
+    font-size: 25px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 600;
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 10%;
+	display: flex;
+	background: transparent;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+.navbar a {
+     font-size: 18px;
+     font-weight: 400;
+     text-decoration: none;
+     color: #ffffff;
+     margin-left: 35px;
+     transition: 0.3s;
+}
+.navbar a:hover,
+.navbar a.active {
+	color: #081b55;
+	font-size: 24px;
+}
+.btnbox {
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
