@@ -1,49 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+#para1{
+    border: 4px solid orange;
+}
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Handjet', cursive;
+#nav{
+    display: flex;
+ justify-content: space-around;
+ margin-top: 12px;
 }
-body {
-	background: #081b29;
-	color: #ffffff;
+
+#nav1{
+    display: flex;
+    flex-direction: column;
 }
-.logo {
-	font-family: 'Fantasy';
-    font-size: 25px;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 600;
+
+#logo_name{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #2A55E5;
+    font-weight: bold;
 }
-.header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 20px 10%;
-	display: flex;
-	background: transparent;
-	justify-content: space-between;
-	align-items: center;
-	z-index: 100;
+
+#input_data{
+    border: none;
+    width: 350px;
+    height: 20px;
+   padding-left: 12px;
+   background-color: #F0F5FF;
 }
-.navbar a {
-     font-size: 18px;
-     font-weight: 400;
-     text-decoration: none;
-     color: #ffffff;
-     margin-left: 35px;
-     transition: 0.3s;
+
+.navtab{
+    display: flex;
+    align-items: center;
 }
-.navbar a:hover,
-.navbar a.active {
-	color: #081b55;
-	font-size: 24px;
+
+#searchbar{
+    background-color: #F0F5FF;
+    padding: 4px;
+    border-radius: 10px;
 }
-.btnbox {
-	font-size: 20px;
-	text-decoration: none;
-	color: #ffffff;
+
+#categories{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+    margin: 12px;
+    margin: auto;
+}
+
+
+#categories > div > img{
+   height: 60px;
+   width: 70px;
+}
+
+#categories > div{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
